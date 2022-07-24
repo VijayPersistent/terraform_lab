@@ -5,11 +5,11 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "myawsbucketvijay1234554321"
+  bucket = "myawsbucketvijay1234554321vijay"
   acl    = "private"
 
   tags = {
-    Name        = "My bucketvijay143"
+    Name        = "My bucketvijay143vijay"
     Environment = "Dev"
   }
 }
